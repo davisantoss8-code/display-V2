@@ -6,3 +6,23 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: bisque;
+    width: 250px;
+    height: 150pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: #fff;
+}
+
+.body-container{
+    background-color: blueviolet;
+}
+
+.main{
+    display: flex;
+}
+
