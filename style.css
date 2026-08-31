@@ -7,6 +7,11 @@
    
 }
 
+:root{
+
+    --saude: #f10101
+}
+
 html{
 font-family: Verdana, sans-serif;
 }
@@ -22,7 +27,7 @@ font-family: Verdana, sans-serif;
 
 .body-container{
 
-    background-color: blanchedalmond;
+    background-color: var(--saude);
 
 }
 
@@ -100,9 +105,9 @@ font-family: Verdana, sans-serif;
 
 .link-lista{
     
-    font-size: medium;
-    line-height: 30px;
-    
+    display: flex;
+    height: 200px;
+   
 }
 
 
