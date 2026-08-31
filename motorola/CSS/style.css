@@ -4,50 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+.main-container{
 
-.container{
-    background-color: bisque;
-    width: 250px;
-    height: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    color: #fff;
-}
-
-body{
-    height: 75vh;
-    width: 75vh;
+    height: 100vh;
     display: flex;
-    background-color: #fff;
-    align-content: center;
-    justify-items: center;
-    margin: 100px;
-
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.main{
-     display: flex;
-    align-content: center;
-    justify-items: center;
-    height: 150px;
-    width: 60px;
-    
+.main-container sup{
+    font-size:  10px;
+    color: blue;
 }
 
-conteudo-principal{
-    display: flex;
-    
+.main-container__left img {
+    width: 300 px;
+    height: 450px;
 }
-
-img{
-    height: 75vh;
-    display: ;
-
-
-}
-
-

@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container__right--charge{
+    /* border:2px solid green; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
