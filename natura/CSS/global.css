@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("./reset.css");
 @import url("./design-system.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 .brands{
+
     padding: 30px;
+}
+
+.brands__title{
+    margin-bottom: 30px;
+
+}
+
+.nramd__title h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.brands__grip {
+    display: flex;
+    /* Enviar o elemento para a proxima linha (quebrar a linha) */
+    flex: wrap;
+    gap: 16px;
+}
+
+.brand-card {
+    /* cresce se houver espaço */
+    flex-grow: 1;
+    /* encolhe-se se a tela diminuir */
+    flex-shrink: 1;
+    /* largura base de cada card */
+    flex-basis: 280px;
+    
 }
