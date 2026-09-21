@@ -1,6 +1,7 @@
 /* Importtando dos arquivos de estilos */
 @import url(./reset.css);
 @import url(./design-system.css);
+@import url(./colors-bars.css);
 
 
 .color-section{
@@ -16,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     width: 260px;
-    background-color: var(--ui-border);
+    background-color: var(--ui-bg-sidebar);
     padding: 30px 20px;
     border-right: 1px solid var(--ui-border);
 }
@@ -41,7 +42,7 @@
 }
 
 /* Elemento Link: Estilo base dos botões de navegação */
-.color-sectiom__link{
+.color-sectiom__lik{
     color: var(--ui-text-link);
     text-decoration: none;
     font-size: 14px;
@@ -56,21 +57,22 @@
 
 
 
-.color-sectiom__link--active{
+.color-sectiom__lnk--active{
     color: var(--ui-link-active-text);
     background-color: var(--ui-link-active-bg);
     /* sombra  V H blur spread color */
     transform: scale(1.05);
+    text-decoration: none;
 }
 
-.color-sectiom__link--active:hover{
+.color-sectiom__lik--active:hover{
     transform: scale(1.05);
 
 
 }
 
 /* pseudoclasses not e hover: Comportamento ao passar o mouse */
-.color-section__link:not(.color-section__link--active) :hover{
+.color-section__lik:not(.color-section__link--active) :hover{
     color: var(--ui-text-title);
     background-color: var(--ui-link-hover-bg);
 }
@@ -92,133 +94,3 @@
     box-shadow: 0 0 30px rgba(51,50,50,0.3);
 }
 
-/* paleta de cores de RGB */
-.color-section__bar--rgb-1{
-
-    
-    width: 15%;
-    background-color:var(--color-rgb-1);
-}
-.color-section__bar--rgb-2{
-
-    
-    width: 15%;
-    background-color: var(--color-rgb-2);
-}
-.color-section__bar--rgb-3{
-
-    
-    width: 15%;
-    background-color: var(--color-rgb-3);
-}
-.color-section__bar--rgb-4{
-
-    
-    width: 15%;
-    background-color: var(--color-rgb-4);
-}
-.color-section__bar--rgb-5{
-
-    
-    width: 15%;
-    background-color: var(--color-rgb-5);
-}
-.color-section__bar--rgb-6{
-
-    
-    width: 15%;
-    background-color: var(--color-rgb-6);
-}
-
-
-/* paleta de cores de CMYK */
-.color-section__bar--cmyk-1{
-
-    
-    width: 15%;
-    background-color: var(--color-cmyk-1);
-}
-.color-section__bar--cmyk-2{
-
-    
-    width: 15%;
-    background-color: var(--color-cmyk-2);
-}
-
-.color-section__bar--cmyk-3{
-
-    
-    width: 15%;
-    background-color: var(--color-cmyk-3);
-}
-
-.color-section__bar--cmyk-4{
-
-
-    width: 15%;
-    background-color: var(--color-cmyk-4);
-}
-.color-section__bar--cmyk-5{
-
-
-    width: 15%;
-    background-color: var(--color-cmyk-5);
-}
-.color-section__bar--cmyk-6{
-
-
-    width: 15%;
-    background-color: var(--color-cmyk-6);
-}
-
-
-/* paleta de cor da netflix */
-.color-section__bar--Netflix-1{
-
-    
-    width: 15%;
-    background-color: var(--color-netflix-1);
-}
-.color-section__bar--Netflix-2{
-
-    
-    width: 15%;
-    background-color: var(--color-netflix-2);
-}
-
-.color-section__bar--Netflix-3{
-
-    
-    width: 15%;
-    background-color: var(--color-netflix-3);
-}
-
-
-
-/* paleta de cores do google */
-.color-section__bar--google-1{
-
-    
-    width: 15%;
-    background-color: var(--color-google-1);
-}
-.color-section__bar--google-2{
-
-    
-    width: 15%;
-    background-color: var(--color-google-2);
-}
-
-.color-section__bar--google-3{
-
-    
-    width: 15%;
-    background-color: var(--color-google-3);
-}
-
-.color-section__bar--google-4{
-
-
-    width: 15%;
-    background-color: var(--color-google-4);
-}
