@@ -80,21 +80,15 @@
 
 /* paleta de cor da netflix */
 .color-section__bar--Netflix-1{
-
-    
     width: 15%;
     background-color: var(--color-netflix-1);
 }
-.color-section__bar--Netflix-2{
-
-    
+.color-section__bar--Netflix-2{ 
     width: 15%;
     background-color: var(--color-netflix-2);
 }
 
 .color-section__bar--Netflix-3{
-
-    
     width: 15%;
     background-color: var(--color-netflix-3);
 }
