@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Mídia</title>
 
+     <!-- link do CSS -->
+     <link rel="stylesheet" href="./style.css">
+
+
     <!-- estilos da pagina -->
     <style>
+
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
         body{
             background-color: blueviolet;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: black;
         }
 
         @media (min-width: 480px){
@@ -16,18 +38,21 @@
                  background-color: lightgreen;
             }
         }
-        @media(max-width: 768px) {
-            body{
-                background-color:rgb (123, 257, 108)
+        @media(min-width: 768px) {
+            body {
+                background-color: blue;
             }
         }
     </style>
   
 </head>
 <body>
-    
-    <!-- link do CSS -->
-     <link rel="stylesheet" href="./style.css">
-
+    <h1>Testes com @Media query</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 </body>
 </html>
