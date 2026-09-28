@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Mídia</title>
 
-     <!-- link do CSS -->
-     <link rel="stylesheet" href="./style.css">
+    <!-- link do CSS -->
+    <link rel="stylesheet" href="./style.css">
 
 
     <!-- estilos da pagina -->
     <style>
-
-        *{
+        * {
             margin: 0;
             box-sizing: border-box;
         }
-        body{
-            background-color: blueviolet;
-        }
 
-        .container{
-            width: 100%;
+
+
+        .container {
             display: flex;
             gap: 15px;
+            justify-content: center;
             flex-wrap: wrap;
         }
 
-        .box{
-            width: 400px;
+        .box {
+            width: 100%;
+            max-width: 400px;
             height: 200px;
             background-color: black;
+         
+            
         }
 
-        @media (min-width: 480px){
-            body {
-                 background-color: lightgreen;
-            }
+        /* TABLETS - 768px OU MAIS */
+
+        /* Estilo base para dispositivos moveis, define a cor para quando o tamanho for inferior a 815px */
+        body {
+            background-color: olive;
+            color: white;
         }
-        @media(min-width: 768px) {
+
+        /* Fazendo a cor do estilo mudar ao ser superior a 815px*/
+        @media screen and (min-width: 815px) {
             body {
                 background-color: blue;
+                color: white;
+            }
+        }
+
+        /* Fazendo a cor do estilo mudar ao ser superior a 1250px */
+        @media screen and (min-width: 1230px) {
+            body {
+                background-color: tan;
+                color: black;
             }
         }
     </style>
-  
+
 </head>
+
 <body>
-    <h1>Testes com @Media query</h1>
+    <h1>Testes com CSS @Media query</h1>
     <div class="container">
         <div class="box"></div>
         <div class="box"></div>
@@ -55,4 +71,5 @@
         <div class="box"></div>
     </div>
 </body>
+
 </html>
