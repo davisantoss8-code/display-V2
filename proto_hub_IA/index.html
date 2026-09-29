@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Mídia</title>
+
+    <!-- link do CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+
+    <!-- estilos da pagina -->
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+         
+            
+        }
+
+        .container-position{
+            margin-top: 10px;
+            width: 100%;
+            height: 600px;
+            border: 2px solid blueviolet;
+            position: relative;
+        }
+
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+        }
+
+        .container-position__filho01{
+            top: 0;
+            left: 0;
+            
+        }
+
+        .container-position__filho02{
+            top: 0;
+            right: 0;
+
+        }
+
+        .container-position__filho03{
+            bottom: 0;
+            left: 0;
+        }
+
+        .container-position__filho04{
+            bottom: 0;
+            right: 0;
+        }
+
+
+
+        /* TABLETS - 768px OU MAIS */
+
+        /* Estilo base para dispositivos moveis, define a cor para quando o tamanho for inferior a 815px */
+        body {
+            background-color: olive;
+            color: white;
+        }
+
+        .whats{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color:greenyellow;
+            border: 2px solid #fff;
+            box-shadow: 1px 2px 2px #fff;
+            position: fixed;
+            right: 0;
+        }
+
+        whats img
+
+        body{
+            padding: 20px;
+        }
+
+
+
+        /* Fazendo a cor do estilo mudar ao ser superior a 815px*/
+        @media screen and (min-width: 815px) {
+            body {
+                background-color: blue;
+                color: white;
+            }
+        }
+
+        /* Fazendo a cor do estilo mudar ao ser superior a 1250px */
+        @media screen and (min-width: 1230px) {
+            body {
+                background-color: tan;
+                color: black;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="h1">Testes com CSS @Media Query</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <div class="container-position">
+        <div class="container-position__filho01 filho-tamanho"></div>
+        <div class="container-position__filho02 filho-tamanho"></div>
+        <div class="container-position__filho03 filho-tamanho"></div>
+        <div class="container-position__filho04 filho-tamanho"></div>
+    </div>
+    <div class="whats">
+
+    </div>
+</body>
+
+</html>
