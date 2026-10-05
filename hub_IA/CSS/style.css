@@ -64,3 +64,22 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
 }
+
+/* seções gerais */
+.section-ia{
+    height: var(--section-height);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    border-bottom: 1px solid var(--color-border);
+    scroll-margin-top: var(--header-height);
+}
+
+.section-ia__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
