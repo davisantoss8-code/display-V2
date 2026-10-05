@@ -7,10 +7,14 @@
   <style>
     /* o elemento raiz assume 100% da preferencia do navegador */
     html {
-      font-size: 100%;
+      font-size: 62.5%;
       font-family: system-ui, -apple-system, sans-serif;
       padding: 20px;
       background-color: #f8fafc;
+    }
+
+    .body{
+      font-size: 1.6 rem;
     }
 
 
@@ -34,9 +38,10 @@
       font-size: 16px;
     }
 
-    .filho{
-      font-size: 16px;
+    .c-container{
+      font-size: 0.75rem;
     }
+
 
   </style>
 </head>
@@ -50,8 +55,15 @@
   </div>
 
   <div class="caixa caixa-rem">
-    <strong>Texto em REM (1rem):</strong> Acessível. Escala automaticamente com o navegador.
+    <strong>Texto em REM (16px):</strong> Acessível. Escala automaticamente com o navegador.
+  </div>
+
+  <div class="container">
+    <p class="c-container"></p>
   </div>
 
 </body>
 </html>
+
+
+<!-- 1 rem = 16px -->
