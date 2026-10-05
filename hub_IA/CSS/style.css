@@ -83,3 +83,8 @@
     width: 100%;
     max-width: 1200px;
 }
+
+.section-ia--reverse .section-ia__container{
+    flex-direction: row-reverse;
+}
+
