@@ -78,19 +78,18 @@
 }
 
 
-/* paleta de cor da netflix */
-.color-section__bar--Netflix-1{
-    width: 15%;
-    background-color: var(--color-netflix-1);
-}
-.color-section__bar--Netflix-2{ 
-    width: 15%;
-    background-color: var(--color-netflix-2);
+/* Exemplo de configuração no colors-bars.css */
+
+.color-section__bar--netflix-1 {
+    background-color: #E50914; /* Vermelho característico Netflix */
 }
 
-.color-section__bar--Netflix-3{
-    width: 15%;
-    background-color: var(--color-netflix-3);
+.color-section__bar--netflix-2 {
+    background-color: #B81D24; /* Vermelho escuro/sombra */
+}
+
+.color-section__bar--netflix-3 {
+    background-color: #221F1F; /* Preto/Cinza escuro */
 }
 
 
