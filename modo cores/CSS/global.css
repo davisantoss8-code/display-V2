@@ -57,7 +57,7 @@
 
 
 
-.color-sectiom__lik--active{
+.color-sectiom__link--active{
     color: var(--ui-link-active-text);
     background-color: var(--ui-link-active-bg);
     /* sombra  V H blur spread color */
@@ -65,14 +65,14 @@
     text-decoration: none;
 }
 
-.color-sectiom__lik--active:hover{
+.color-sectiom__link--active:hover{
     transform: scale(1.05);
 
 
 }
 
 /* pseudoclasses not e hover: Comportamento ao passar o mouse */
-.color-section__lik:not(.color-section__link--active) :hover{
+.color-section__link:not(.color-section__link--active) :hover{
     color: var(--ui-text-title);
     background-color: var(--ui-link-hover-bg);
 }
