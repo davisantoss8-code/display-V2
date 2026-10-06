@@ -4,14 +4,14 @@
 @import url(./colors-bars.css);
 
 
-.color-section{
+.color-section {
     display: flex;
     height: 100vh;
     width: 100%;
 }
 
 /* elemento sidebar: Barra lateral que contem o título e a navegação */
-.color-sectiom__sidebar{
+.color-sectiom__sidebar {
 
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 /* elemento title: Título identificador do modelo de cor atual */
-.color-section__title{
+.color-section__title {
     color: var(--ui-text-title);
     font-size: 20px;
     /* peso da fonte NÃO utiliza PX */
@@ -35,14 +35,14 @@
 }
 
 /* elemento titulo */
-.color-sectiom__menu{
+.color-sectiom__menu {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
 /* Elemento Link: Estilo base dos botões de navegação */
-.color-sectiom__link{
+.color-sectiom__link {
     color: var(--ui-text-link);
     text-decoration: none;
     font-size: 14px;
@@ -57,7 +57,7 @@
 
 
 
-.color-sectiom__link--active{
+.color-sectiom__link--active {
     color: var(--ui-link-active-text);
     background-color: var(--ui-link-active-bg);
     /* sombra  V H blur spread color */
@@ -65,19 +65,19 @@
     text-decoration: none;
 }
 
-.color-sectiom__link--active:hover{
+.color-sectiom__link--active:hover {
     transform: scale(1.05);
 
 
 }
 
 /* pseudoclasses not e hover: Comportamento ao passar o mouse */
-.color-section__link:not(.color-section__link--active) :hover{
+.color-section__link:not(.color-section__link--active) :hover {
     color: var(--ui-text-title);
     background-color: var(--ui-link-hover-bg);
 }
 
-.color-section__bar{
+.color-section__bar {
 
     /* faz com que as 65 colunas dividam igualmente o espaço restante */
     flex-grow: 1;
@@ -87,14 +87,14 @@
     transition: transform 0.25s ease;
 }
 
-.color-section__bar:hover{
+.color-section__bar:hover {
     transform: scaleX(1.02);
     /* Posicionamento do elemento no eixo z (pilha) */
     z-index: 10;
-    box-shadow: 0 0 30px rgba(51,50,50,0.3);
+    box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
-.color-section__content{
+.color-section__content {
     height: 100vh;
     display: flex;
     flex-grow: 1;
@@ -102,13 +102,13 @@
 
 }
 
-.color-section__palette{
+.color-section__palette {
     display: flex;
     height: 43vh;
     width: 100%;
 }
 
-.color-section__faq{
+.color-section__faq {
     flex-grow: 1;
     background-color: var(--faq-bg);
     padding: 35px 40px;
@@ -118,7 +118,7 @@
 }
 
 /* tÍtulo do FAQ     */
-.color-section__faq-title{
+.color-section__faq-title {
     font-size: 22px;
     font-weight: 700;
     color: var(--faq-text-title);
@@ -127,7 +127,7 @@
 }
 
 /* card da pergunta (details) */
-.color-section__faq-item{
+.color-section__faq-item {
     background-color: var(--faq-card-bg);
     border: 1px solid var(--faq-border);
     border-radius: 10px;
@@ -142,16 +142,17 @@
     font-weight: 600;
     color: var(--faq-text-question);
     cursor: pointer;
-    
+
     /* Troca de ícone via CSS puro 
     Esconde a seta padrão nos navegadores padrão */
-    
-    list-style: none; 
+
+    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: color 0.2s ease;
 }
+
 /* Remove a seta nativa no Safari e navegadores WebKit */
 .color-section__faq-question::-webkit-details-marker {
     display: none;
@@ -159,7 +160,8 @@
 
 /* Novo Ícone customizado (Criado com CSS Puro) */
 .color-section__faq-question::after {
-    content: "✦"; /* Ícone em formato de estrela/brilho para combinar com o neon */
+    content: "✦";
+    /* Ícone em formato de estrela/brilho para combinar com o neon */
     font-size: 16px;
     color: var(--faq-border-neon-glow);
     transition: transform 0.9s ease, color 0.9s ease;
@@ -170,6 +172,7 @@
     transform: rotate(180deg) scale(1.3);
     color: #ffffff;
 }
+
 /* Mudança de cor no hover da pergunta */
 .color-section__faq-item:hover .color-section__faq-question {
     color: #ffffff;

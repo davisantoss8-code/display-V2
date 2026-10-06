@@ -1,6 +1,6 @@
 /* Cores Globais da Interface (Menu Lateral) */
-    
-:root{
+
+:root {
     /* Cores Globais da Interface (Menu Lateral) */
     --ui-bg-sidebar: #010d2e;
     --ui-border: #29292e;
@@ -10,7 +10,7 @@
     --ui-link-active-bg: #7500c8;
     --ui-link-active-text: #ffffff;
 
-     /* Cores e Estilos do FAQ (Tons mais claros que a Sidebar) */
+    /* Cores e Estilos do FAQ (Tons mais claros que a Sidebar) */
     --faq-bg: #0d1b3e;
     --faq-card-bg: #16264f;
     --faq-card-hover-bg: #1e3266;
@@ -31,24 +31,23 @@
     --color-rgb-6: rgb(255, 0, 255);
 
     /* Paleta do Sistema CMYK (Simulado em RGB/Hex) */
-    --color-cmyk-1: #e60000; 
-    --color-cmyk-2: #006b00; 
-    --color-cmyk-3: #0000ae; 
-    --color-cmyk-4: #dfdf05; 
-    --color-cmyk-5: #03e6e6; 
+    --color-cmyk-1: #e60000;
+    --color-cmyk-2: #006b00;
+    --color-cmyk-3: #0000ae;
+    --color-cmyk-4: #dfdf05;
+    --color-cmyk-5: #03e6e6;
     --color-cmyk-6: #d900d9;
 
     /* Paleta da Netflix */
-    --color-netflix-1: #221F1F;   
+    --color-netflix-1: #221F1F;
     --color-netflix-2: #E50914;
     --color-netflix-3: #F5F5F1;
 
     /* paleta do google */
-    --color-google-1: #4285F4;   
+    --color-google-1: #4285F4;
     --color-google-2: #FBBC05;
     --color-google-3: #34A853;
     --color-google-4: #EA4335;
 
 
 }
-

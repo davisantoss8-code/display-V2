@@ -1,76 +1,84 @@
 /* paleta de cores de RGB */
-.color-section__bar--rgb-1{
+.color-section__bar--rgb-1 {
 
-    
+
     width: 15%;
-    background-color:var(--color-rgb-1);
+    background-color: var(--color-rgb-1);
 }
-.color-section__bar--rgb-2{
 
-    
+.color-section__bar--rgb-2 {
+
+
     width: 15%;
     background-color: var(--color-rgb-2);
 }
-.color-section__bar--rgb-3{
 
-    
+.color-section__bar--rgb-3 {
+
+
     width: 15%;
     background-color: var(--color-rgb-3);
 }
-.color-section__bar--rgb-4{
 
-    
+.color-section__bar--rgb-4 {
+
+
     width: 15%;
     background-color: var(--color-rgb-4);
 }
-.color-section__bar--rgb-5{
 
-    
+.color-section__bar--rgb-5 {
+
+
     width: 15%;
     background-color: var(--color-rgb-5);
 }
-.color-section__bar--rgb-6{
 
-    
+.color-section__bar--rgb-6 {
+
+
     width: 15%;
     background-color: var(--color-rgb-6);
 }
 
 
 /* paleta de cores de CMYK */
-.color-section__bar--cmyk-1{
+.color-section__bar--cmyk-1 {
 
-    
+
     width: 15%;
     background-color: var(--color-cmyk-1);
 }
-.color-section__bar--cmyk-2{
 
-    
+.color-section__bar--cmyk-2 {
+
+
     width: 15%;
     background-color: var(--color-cmyk-2);
 }
 
-.color-section__bar--cmyk-3{
+.color-section__bar--cmyk-3 {
 
-    
+
     width: 15%;
     background-color: var(--color-cmyk-3);
 }
 
-.color-section__bar--cmyk-4{
+.color-section__bar--cmyk-4 {
 
 
     width: 15%;
     background-color: var(--color-cmyk-4);
 }
-.color-section__bar--cmyk-5{
+
+.color-section__bar--cmyk-5 {
 
 
     width: 15%;
     background-color: var(--color-cmyk-5);
 }
-.color-section__bar--cmyk-6{
+
+.color-section__bar--cmyk-6 {
 
 
     width: 15%;
@@ -81,41 +89,45 @@
 /* Exemplo de configuração no colors-bars.css */
 
 .color-section__bar--netflix-1 {
-    background-color: #E50914; /* Vermelho característico Netflix */
+    background-color: #E50914;
+    /* Vermelho característico Netflix */
 }
 
 .color-section__bar--netflix-2 {
-    background-color: #B81D24; /* Vermelho escuro/sombra */
+    background-color: #B81D24;
+    /* Vermelho escuro/sombra */
 }
 
 .color-section__bar--netflix-3 {
-    background-color: #221F1F; /* Preto/Cinza escuro */
+    background-color: #221F1F;
+    /* Preto/Cinza escuro */
 }
 
 
 
 /* paleta de cores do google */
-.color-section__bar--google-1{
+.color-section__bar--google-1 {
 
-    
+
     width: 15%;
     background-color: var(--color-google-1);
 }
-.color-section__bar--google-2{
 
-    
+.color-section__bar--google-2 {
+
+
     width: 15%;
     background-color: var(--color-google-2);
 }
 
-.color-section__bar--google-3{
+.color-section__bar--google-3 {
 
-    
+
     width: 15%;
     background-color: var(--color-google-3);
 }
 
-.color-section__bar--google-4{
+.color-section__bar--google-4 {
 
 
     width: 15%;
