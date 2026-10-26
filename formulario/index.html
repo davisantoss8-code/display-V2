@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com Inputs</title>
+
+    <style>
+        * {
+            margin-bottom: 15px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        input {
+            height: 25px;
+            width: 150px;
+            border-color: blueviolet;
+            background-color: bisque;
+            color: brown;
+        }
+
+        input:focus {
+            border-color: #f51a0a;
+        }
+
+        p {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="./enviar.html" method="gets">
+
+        <img src="https://placehold.co/200x200/blueviolet/fff?text=Usu%C3%A1rio" alt="Imagem do placehold" />
+
+        <label for="CPF">Documento de identificação</label>
+        <input type="text" id="cpf" name="cpf-usuario" value="ivo" placeholder="Informe seu CPF" required/><br />
+
+        <label for="Senha"></label> <br />
+        <input type="password" id="senha" name="senha-usuario"  placeholder="Digite sua senha" required/> <br/>
+        <!-- botões -->
+        <input type="submit" value="Entrar"/>
+        <input type="reset" value="Limpar"/>
+        <a href="#"> <p>esqueceu sua senha?</p>
+        </a>
+    
+        <p>-------------ou-------------</p>
+        <input type="email" placeholder="Digite seu email"> <br/>
+        <input type="submit" value="cadastrar"/> 
+        <hr />
+        <input type="number" min="2" max="20" step="2"/>
+
+        <p>Selecione seu cucrso atual</p>
+
+        <input type="radio" id="ads" name="sel-curso"  value="Desenvolvimento de Sistemas">
+        <label for="cursos">Desenvolvimento de sistemas</label><br>
+
+        <input type="radio" id="ads" name="sel-curso" value="ads">
+        <label for="ads">Analise e Desenvolvimento de Sistemas</label><br>
+        
+        <input type="radio" id="si" name="sel-curso" value="si">
+        <label for="ads">Sistemas para internet</label><br>
+        <hr>
+
+        <label for="cor">Selecione sua cor preferida:</label>
+        <input type="color" value="blueviolet"><br>
+
+        <p>selecione os dias da semana que você tem disponibilidade:</p>
+
+        <input type="checkbox" id="segunda" name="segunda-feira">
+        <label for="segunda">segunda-feira</label>
+
+        <input type="checkbox" id="quarta" name="quarta-feira">
+        <label for="quarta">quarta-feira</label>
+
+        <input type="checkbox" id="sexta" name="sexta-feira">
+        <label for="sexta">sexta-feira</label>
+        
+        <p>Qual sua comida favoritda</p>
+        <select name="comida-favorita" id="comida-favorita">
+            <option selected disabled>Selecione um item</option>
+            <option value="burgão">Burgão</option>
+            <option value="podrao">Podrão</option>
+            <option value="Sedenho">Sedenho</option>
+            <option value="Churrasco">Churrasco</option>
+        </select>
+        
+    </form>
+
+</body>
+
+</html>
+
+ <!-- <p>Botoões Padrão</p>
+        <button>Enviar</button>
+        <button type="submit">Enviar Submit</button>
+        <button type="reset">Limpar</button> -->
